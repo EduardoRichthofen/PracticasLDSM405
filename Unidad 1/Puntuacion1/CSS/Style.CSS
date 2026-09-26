@@ -1,0 +1,118 @@
+main{
+    display: flex;
+}
+ 
+body{
+    background-color: #000000;
+    font-optical-sizing: auto;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+}
+ 
+#texto{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo{
+    text-align: center
+}
+ 
+#principal{
+    background-color: rgb(217, 141, 247);
+    width: 80%;
+ 
+}
+ 
+#menu{
+    background-color: #929292;
+    width: 20%;
+    padding: 20px;
+}
+ 
+#section-1{
+    background-color: black;
+   
+}
+ 
+#section-2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+ 
+.secundario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+ 
+.articulo{
+    background-color: rgb(202, 122, 248);
+    width: 25%;
+    height: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+ 
+#art2-caja1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;               
+}
+ 
+#art2-caja3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    padding: 20px;                    
+}
+
+#pie{
+   background-color: rgb(92, 92, 92);
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    padding: 15px;
+    min-height: 50px;
+}
+#section-footer-1{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+#link-google {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+
+#color-dg{
+
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(247, 247, 247));
+
+}
+
+#img-bg{
+
+
+    background-image: url("../img/evering is falling.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
