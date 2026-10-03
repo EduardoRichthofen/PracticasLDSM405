@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduardo Santana">
+        <meta name="keywords" content="desarrollo web, ingeniería de software">
+        <title>Corredor</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+        <h1>RELACIONES</h1>
+        <section class="contenedor-principal">
+            <main class="contenedor-centralizado">
+                <fieldset class="auto-corredor">
+                    <legend>Auto-Corredor</legend>
+                    <section class="seleccion-auto">
+                        <label>Auto</label>
+                        <select id="auto">
+                            <option value="auto1">Ferrari: SF26</option>
+                            <option value="auto2">McLaren: MCL40</option>
+                            <option value="auto3">Red Bull: RB22</option>
+                            <option value="auto4">Cadillac: MAC-26</option>
+                        </select>
+                    </section>
+                    <section class="seleccion-corredor">
+                        <label>Corredor</label>
+                        <select id="corredor">
+                            <option value="corredor1">Charles Leclerc</option>
+                            <option value="corredor2">Lando Norris</option>
+                            <option value="corredor3">Max Verstappen</option>
+                            <option value="corredor4">Sergio Perez</option>
+                        </select>
+                    </section>
+                </fieldset>
+
+                <fieldset class="auto-corredor"> 
+                    <legend>Auto-Escuderia</legend>
+                    <section class="seleccion-auto">
+                        <label>Auto</label>
+                        <select id="auto-2">
+                            <option value="auto1">Ferrari: SF26</option>
+                            <option value="auto2">McLaren: MCL40</option>
+                            <option value="auto3">Red Bull: RB22</option>
+                            <option value="auto4">Cadillac: MAC-26</option>
+                        </select>
+                    </section>
+                    <section class="seleccion-escuderia">
+                        <label>Escuderia</label>
+                        <select id="escuderia">
+                            <option value="escuderia1">Ferrari</option>
+                            <option value="escuderia2">McLaren</option>
+                            <option value="escuderia3">Red Bull</option>
+                            <option value="escuderia4">Cadillac</option>
+                        </select>
+                    </section>
+                </fieldset>
+            </main>
+            <aside class="menu-lateral">
+                <h2>MENU</h2>
+                <ol>
+                    <li><a href="corredor.html">Opcion 1</a></li>
+                    <li><a href="Relaciones.html">Opcion 2</a></li>
+                    <li><a href="Escuderia.html">Opcion 3</a></li>
+                    <li><a href="Autos.html">Opcion 4</a></li>
+                </ol>
+            </aside>
+        </section>
+        <footer class="pie-pagina">
+            <h2 class="nombre">Eduardo Santana</h2>
+            <button id="guardar" onclick="guardar()">Guardar</button>
+        </footer>
+        <script src="JS/Funcionalidad.js"></script>
+    </body>
+</html>

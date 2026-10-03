@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta author="Eduardo Santana">
+        <meta keywords="desarrollo web, ingeniería de software">
+        <title>Corredor</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+         <h1>ESCUDERIA</h1>
+        <div class="contenedor-principal">
+            <main class="datos-descrip">
+                <div id="Nombre"></div>
+                <fieldset class="Nom-Com">
+                <div><label>Nombre: </label>
+                    <input type="text" id="nombre">
+                </div>
+                <div>
+                <label>Comentarios: </label>
+                    <textarea id="comentarios" rows="20" cols="110"></textarea>
+                </div>
+                </fieldset>
+            </main>
+            <aside class="menu-lateral">
+                <h2>MENU</h2>
+                <ol>
+                    <li><a href="corredor.html">Opcion 1</a></li>
+                    <li><a href="Relaciones.html">Opcion 2</a></li>
+                    <li><a href="Escuderia.html">Opcion 3</a></li>
+                    <li><a href="Autos.html">Opcion 4</a></li>
+                </ol>
+            </aside>
+        </div>
+        <footer class="pie-pagina">
+            <h2 class="nombre">Eduardo Santana</h2>
+            <button id="guardar" onclick="guardar()">Guardar</button>
+        </footer>
+        <script src="JS/Funcionalidad.js"></script>
+    </body>
+</html>

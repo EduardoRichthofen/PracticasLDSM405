@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduardo Santana">
+        <meta name="keywords" content="desarrollo web, ingeniería de software">
+        <title>Autos</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+        <h1>AUTOS</h1>
+        <section class="contenedor-principal">
+            <main class="contenido-principal">
+                <fieldset class="formulario-autos">
+                    <legend>Datos del auto: </legend>
+                    <section class="grupo-campo">
+                        <label>Modelo: </label>
+                        <input type="text" id="nombre_auto">
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Color: </label>
+                        <input type="color" id="color_auto">
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Foto:</label>
+                        <input type="file" id="imagen_auto">
+                    </section>
+                    <section class="grupo-campo opciones-activo">
+                        <label>Activo:</label>
+                        <section class="opciones-radio">
+                            <label><input type="radio" name="activo" id="activo_s" value="SI"> SI</label>
+                            <label><input type="radio" name="activo" id="activo_n" value="NO"> NO</label>
+                        </section>
+                    </section>
+                </fieldset>
+            </main>
+            <aside class="menu-lateral">
+                <h2>MENU</h2>
+                <ol>
+                    <li><a href="corredor.html">Opcion 1</a></li>
+                    <li><a href="Relaciones.html">Opcion 2</a></li>
+                    <li><a href="Escuderia.html">Opcion 3</a></li>
+                    <li><a href="Autos.html">Opcion 4</a></li>
+                </ol>
+            </aside>
+        </section>
+        <footer class="pie-pagina">
+            <h2 class="nombre">Eduardo Santana</h2>
+            <button id="guardar" onclick="guardar()">Guardar</button>
+        </footer>
+        <script src="JS/Funcionalidad.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduardo Santana">
+        <meta name="keywords" content="desarrollo web, ingeniería de software">
+        <title>Corredor</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+        <h1>CORREDOR</h1>
+        <section class="contenedor-principal">
+            <main class="contenido-principal">
+                <fieldset class="formulario-autos">
+                    <legend>Datos del usuario: </legend>
+                    <section class="grupo-campo">
+                        <label>Nombre:</label>
+                        <input type="text" id="nombre">
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Apellido Paterno: </label>
+                        <input type="text" id="App">
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Apellido Materno: </label>
+                        <input type="text" id="Apm">
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Edad</label>
+                        <select id="Edad">
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                        </select>
+                    </section>
+                    <section class="grupo-campo opciones-activo">
+                        <label>Género:</label>
+                        <section class="opciones-radio">
+                            <label><input type="radio" name="generoU" id="genero_f" value="Femenino"> F</label>
+                            <label><input type="radio" name="generoU" id="genero_m" value="Masculino"> M</label>
+                        </section>
+                    </section>
+                    <section class="grupo-campo">
+                        <label>Foto:</label>
+                        <input type="file" id="imagen">
+                    </section>
+                </fieldset>
+            </main>
+            <aside class="menu-lateral">
+                <h2>MENU</h2>
+                <ol>
+                    <li><a href="corredor.html">Opcion 1</a></li>
+                    <li><a href="Relaciones.html">Opcion 2</a></li>
+                    <li><a href="Escuderia.html">Opcion 3</a></li>
+                    <li><a href="Autos.html">Opcion 4</a></li>
+                </ol>
+            </aside>
+        </section>
+        <footer class="pie-pagina">
+            <h2 class="nombre">Eduardo Santana</h2>
+            <button id="guardar" onclick="guardar()">Guardar</button>
+        </footer>
+        <script src="JS/Funcionalidad.js"></script>
+    </body>
+</html>
