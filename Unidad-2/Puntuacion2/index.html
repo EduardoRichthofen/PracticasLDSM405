@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <article>
+        <h2>Calculadora</h2>
+                    <form action="" method="post" id="calculadora" name="calculadora">
+                        <h4>Elija numeros para hacer cálculos</h4>
+                        <label>Primer numero</label>
+                        <input type="text" id="n1" name="n1"><br>
+                        <label>Segundo numero</label>
+                        <input type="text" id="n2" name="n2"><br>
+                        <select id="operador" size="1" name="operador">
+                            <option value="sumar">+</option>
+                            <option value="restar">-</option>
+                            <option value="multiplicar">*</option>
+                            <option value="dividir">/</option>
+                            <option value="modulo">%</option>
+                        </select>
+                        <button type="button" onclick="cal()" class="btn btn-warning" id="calcular">Calcular</button>
+                    </form>
+                    <p class="alert alert-success" id="resultadoCalculadora"></p>
+                </article>
+                <hr class="d-sm-none">
+<article>
+        <form action="" method="post" id="numerop" name="numerop">
+            <h4>Precio y Descuento</h4>
+            <label>No. Piezas</label>
+            <input type="text" id="n1" name="n1"><br>
+            <label>Precio</label>
+            <input type="text" id="n2" name="n2"><br>
+           <button type="button" onclick="cal()" class="btn btn-warning" id="calcular">Calcular</button>
+        </form>
+    </article>
+
+
+
+
+
+
+<script src="JS/funciones.js"></script>
+</body>
+</html>

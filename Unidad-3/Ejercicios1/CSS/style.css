@@ -1,0 +1,103 @@
+body {
+    background-color: #573869;
+    color: #333333;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+}
+
+.card h2, .card h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+
+#resultadoTemperaturas, #resutadoOcho, #resultadoAlumnos, #impAgenda {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+#resultadoTemperaturas hr, #resultadoAlumnos hr, #impAgenda hr {
+    border-color: #cbd5e1;
+    opacity: 1;
+}
+
+.menu-card {
+    max-width: 500px;
+    margin: 60px auto 0;
+    background: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+}
+
+.menu-title {
+    color: #2c3e50;
+    font-size: 1.75rem;
+    font-weight: 700;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.menu-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ejercicio-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.25rem;
+    margin-bottom: 0.75rem;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    color: #2b6cb0;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.ejercicio-link:hover {
+    background-color: #f1f5f9;
+    border-color: #cbd5e1;
+    color: #5900ff;
+    transform: translateY(-1px);
+}
+
+.ejercicio-link .arrow {
+    color: #94a3b8;
+    font-weight: bold;
+}
